@@ -150,7 +150,6 @@
     <servlet-name>servletCookie01</servlet-name>
     <url-pattern>/servletCookie01</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>sessionDemo01</servlet-name>
     <servlet-class>com.session.study.SessionDemo01</servlet-class>
@@ -158,5 +157,45 @@
   <servlet-mapping>
     <servlet-name>sessionDemo01</servlet-name>
     <url-pattern>/sessionDemo01</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>IndexServlet</servlet-name>
+    <servlet-class>com.session.study.IndexServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>IndexServlet</servlet-name>
+    <url-pattern>/IndexServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BuyServlet</servlet-name>
+    <servlet-class>com.session.study.BuyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BuyServlet</servlet-name>
+    <url-pattern>/BuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListCartServlet</servlet-name>
+    <servlet-class>com.session.study.ListCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListCartServlet</servlet-name>
+    <url-pattern>/ListCartServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>DoFormServlet</servlet-name>
+    <servlet-class>com.session.study.DoformServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DoFormServlet</servlet-name>
+    <url-pattern>/DoFormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FormServlet</servlet-name>
+    <servlet-class>com.session.study.FormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FormServlet</servlet-name>
+    <url-pattern>/FormServlet</url-pattern>
   </servlet-mapping>
 </web-app>
